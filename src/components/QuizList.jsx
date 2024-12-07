@@ -1,4 +1,3 @@
-import React from "react";
 import {useNavigate} from "react-router-dom";
 import {quizzes} from "../data";
 
@@ -6,7 +5,7 @@ export const QuizList = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="flex flex-row flex-wrap justify-center gap-4 my-10">
+    <div className="flex flex-row flex-wrap justify-center gap-4 mt-10 mb-20">
       {quizzes.map((quiz, index) => {
         return (
           <>

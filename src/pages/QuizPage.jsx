@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import {useState, useEffect} from "react";
 import {useParams} from "react-router-dom";
 import {quizzes} from "../data";
 import {Question, Results} from "../components";
@@ -92,7 +92,7 @@ export const QuizPage = () => {
           ) : (
             //   DesactivateQuiz
             <>
-              <div className="flex flex-col items-center mx-auto gap-4 w-80 mt-10">
+              <div className="flex flex-col items-center mx-auto w-80 mt-10">
                 <h1 className="text-3xl text-teal-900 text-center font-bold">
                   {course}
                 </h1>
