@@ -54,7 +54,7 @@ export const quizzes = [
             },
         ],
         templateId: 'cuestionario',
-        image: 'src/assets/ciencia.png',
+        image: 'https://github.com/marianagdeveloper/student-quiz-app/blob/666ac4efb9104c2fb4f2c81f47592ce352e4a3f2/src/assets/ciencia.png',
         gradient: 'from-purple-500 to-pink-500',
         wallpaperId: "classic",
         isMinutes: 'notMinutes',
