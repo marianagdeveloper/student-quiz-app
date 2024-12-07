@@ -11,6 +11,7 @@ export const QuizList = () => {
         return (
           <>
             <div
+              key={index}
               className={`flex flex-col justify-between basis-[20%] bg-slate-500 rounded-2xl  overflow-hidden bg-gradient-to-r ${quiz.gradient} transition-all hover:scale-105`}
             >
               {/* Card Image and Title */}

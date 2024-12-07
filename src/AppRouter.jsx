@@ -1,4 +1,3 @@
-import React from "react";
 import {Routes, Route} from "react-router-dom";
 import {HomePage, QuizPage} from "./pages";
 import {Navbar} from "./components/Navbar";
