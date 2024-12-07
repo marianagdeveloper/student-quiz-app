@@ -54,7 +54,7 @@ export const quizzes = [
             },
         ],
         templateId: 'cuestionario',
-        image: '../src/assets/ciencia.png',
+        image: 'src/assets/ciencia.png',
         gradient: 'from-purple-500 to-pink-500',
         wallpaperId: "classic",
         isMinutes: 'notMinutes',
